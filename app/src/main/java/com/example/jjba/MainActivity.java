@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
-        setContentView(new MyDraw(this));
+        setContentView(new drawFractals(this));
     }
 }

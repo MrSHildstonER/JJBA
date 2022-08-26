@@ -38,5 +38,7 @@ public class MyDraw extends View {
         for (int i=0; i < getWidth();i += 50){
             canvas.drawLine(i,0,i,getHeight(),paint);
         }
+
+
     }
 }
